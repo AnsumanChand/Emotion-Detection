@@ -12,7 +12,7 @@ import yaml
 import numpy as np
 import pandas as pd
 
-from dataprep import ReadFile
+from helpers.dataprep import ReadFile
 
 parser = argparse.ArgumentParser(description="Emotion Detect - Data Process ")
 parser.add_argument('params_file', metavar='FILENAME', type=str, help='Parameter file name in yaml format')
