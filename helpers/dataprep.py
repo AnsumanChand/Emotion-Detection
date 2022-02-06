@@ -7,6 +7,7 @@ import pandas as pd
 ### This is a demonstration
 
 def get_extension(filepath):
+    ### This is another demo
     ext = filepath.split('.')[-1]  
     ext = ext.lower()  
     return ext 
